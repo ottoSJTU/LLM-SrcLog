@@ -1,0 +1,12 @@
+[
+  {
+    "level": "ERROR",
+    "method": "com.example.Foo.error",
+    "pattern": "Invalid_User_ID<.*>"
+  },
+  {
+    "level": "FATAL",
+    "method": "com.example.Foo.fatal",
+    "pattern": "Unknown_<.*>"
+  }
+]

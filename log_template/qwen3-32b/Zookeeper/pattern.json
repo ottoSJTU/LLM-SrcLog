@@ -1,0 +1,5882 @@
+[
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.NettyUtils.debug",
+    "pattern": "Detected <.*> local network addresses: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "LOOKING"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LeaderSessionTracker.info",
+    "pattern": "Tracking global session 0x<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.auth.X509AuthenticationProvider.error",
+    "pattern": "No trust manager available to authenticate"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.SaslServerPrincipal.debug",
+    "pattern": "Canonicalized address to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerCnxAcceptorHandler.warn",
+    "pattern": "Exception while accepting follower"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.error",
+    "pattern": "Unable to access socket output stream"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.FollowerZooKeeperServer.warn",
+    "pattern": "Committing <.*> without seeing txn"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Invalid large request threshold {}. It should be -1 or positive. Setting to -1 "
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.warn",
+    "pattern": "skipACL is set, reconfig operation will skip ACL checks!"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ContainerManager.info",
+    "pattern": "interrupted"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.AcceptThread.warn",
+    "pattern": "Ignoring IOException while selecting"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.AuthenticationHelper.info",
+    "pattern": "<.*> = <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.AbstractSelectThread.debug",
+    "pattern": "ignoring exception during selectionkey cancel"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.auth.X509AuthenticationProvider.error",
+    "pattern": "Failed to trust certificate"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.debug",
+    "pattern": "Skip processReconfig(), state: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler.debug",
+    "pattern": "QuorumLearner supplied realm: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnLog.warn",
+    "pattern": "Current zxid <.*> is <= <.*> for <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LeaderConnector.info",
+    "pattern": "Successfully connected to leader, using address: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.debug",
+    "pattern": "Attempting to send lastMessage to sid=<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Leader.warn",
+    "pattern": "First is {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.common.X509Util.info",
+    "pattern": "enabling cert file reloading"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.warn",
+    "pattern": "Ignoring unexpected exception"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "Problem sending to <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Session 0x{}: auth success for scheme {} and address {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.debug",
+    "pattern": "ignoring exception during socket close"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.SendThread.info",
+    "pattern": "Checking server <.*> for being r/w. Timeout <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.warn",
+    "pattern": "Ignoring exception reading or writing challenge: "
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Exception details: "
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "Quit leading due to voter changed mind."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNIO.warn",
+    "pattern": "Ignoring exception during selector close"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.error",
+    "pattern": "Error closing server socket"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Follower.info",
+    "pattern": "Starting ObserverMaster"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.SessionTrackerImpl.debug",
+    "pattern": "Removing session 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.SnapshotCommand.warn",
+    "pattern": "Snapshot request was rate limited"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "Distributed:{}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.warn",
+    "pattern": "Unknown status:{}!"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Leader.error",
+    "pattern": "Somehow session 0x{} expired right after being renewed! (impossible)"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.info",
+    "pattern": "Reading configuration from: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.error",
+    "pattern": "Next packet was supposed to be an ACK, but received packet: {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.CommitWorkRequest.error",
+    "pattern": "Exception thrown by downstream processor, unable to continue."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.util.SecurityUtils.debug",
+    "pattern": "serviceHostname is '<.*>'"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.SendThread.debug",
+    "pattern": "Got ping response for session id: 0x<.*> after <.*>ms."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.ZKHostnameVerifier.debug",
+    "pattern": "Unexpected exception<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "NEWLEADER proposal has Zxid of {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.controller.CommandListener.warn",
+    "pattern": "Exception during shutdown CommandListener server"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj.warn",
+    "pattern": "Oracle is already set. Ignore:<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.DataTree.warn",
+    "pattern": "Got EOFException while reading the last processed zxid, likely due to reading an older snapshot."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.CertificateVerifier.debug",
+    "pattern": "Successful handshake with session 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNIO.info",
+    "pattern": "testableCloseSocket() called"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.error",
+    "pattern": "Interrupted while sleeping. Ignoring exception"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.SendThread.debug",
+    "pattern": "Got <.*> for session id 0x<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.ObserverMaster.error",
+    "pattern": "LearnerHandler is too far behind (0x<.*> < 0x<.*>), disconnecting <.*> at <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.info",
+    "pattern": "Backward compatibility mode (36 bits), server id: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.FinalRequestProcessor.error",
+    "pattern": "FIXMSG"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ReadOnlyZooKeeperServer.warn",
+    "pattern": "Failed to register with JMX"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Request failed ACL check"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.ObserverMaster.debug",
+    "pattern": "Ignoring accept exception (maybe client closed)"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.warn",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "TCP NoDelay set to: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "{}==\"yes\", ACL checks will be skipped"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "quorum.cnxn.threads.size set to <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.SnapStream.info",
+    "pattern": "Invalid snapshot <.*>. len = <.*>, byte = <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "OBSERVING"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.error",
+    "pattern": "Failed to send last message. Shutting down thread."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Failed to register with JMX"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.debug",
+    "pattern": "Issued a read since we do not have anything to consume after channelReadComplete"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.watch.WatcherCleaner.info",
+    "pattern": "Processing <.*> dead watchers"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Follower.info",
+    "pattern": "FOLLOWING - LEADER ELECTION TOOK - <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Detected gap between end of txnlog: 0x<.*> and start of committedLog: 0x<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.auth.X509AuthenticationProvider.error",
+    "pattern": "Failed to create trust manager"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Listener.error",
+    "pattern": "Interrupted while sleeping. Ignoring exception"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZKDatabase.error",
+    "pattern": "Error parsing <.*>, using default value <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Observer.error",
+    "pattern": "Received an UPTODATE message after Observer started"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Sending DIFF"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical.debug",
+    "pattern": "Group info: <.*>, <.*>, <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.auth.EnsembleAuthenticationProvider.warn",
+    "pattern": "Unexpected ensemble name: ensemble name: <.*> client ip: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.debug",
+    "pattern": "Receive new notification message. My id = <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZKDatabase.error",
+    "pattern": "Unable to get size of most recent snapshot"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "ServerID:{}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ServerMetrics.info",
+    "pattern": "ServerMetrics initialized with provider <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.info",
+    "pattern": "Creating TLS-enabled quorum server socket"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnIterator.warn",
+    "pattern": "Delete empty tail log file to recover from corruption file: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.DataTree.error",
+    "pattern": "Unexpected exception when creating WatchManager, exiting abnormally"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.SyncRequestProcessor.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Incorrect password from {} for session 0x{}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.error",
+    "pattern": "Got a short response from server <.*> <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ZooKeeper.info",
+    "pattern": "Session: 0x<.*> closed"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.CommitProcessor.info",
+    "pattern": "Configuring CommitProcessor with readBatchSize <.*> commitBatchSize <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ReadOnlyZooKeeperServer.warn",
+    "pattern": "Not starting Read-only server as startup follows shutdown!"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Dynamic reconfig is disabled, we don't store the last seen config."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerMaster.setMaxConcurrentSnapSyncs",
+    "pattern": "Set maxConcurrentSnapSyncs to <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "got auth packet {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.warn",
+    "pattern": "******* GOODBYE <.*> ********"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.info",
+    "pattern": "{} = {} ms"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Using <.*>ms as the quorum cnxn socket timeout"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.debug",
+    "pattern": "PeerState set to FOLLOWING"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.warn",
+    "pattern": "Unable to register log4j JMX control"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.Login.info",
+    "pattern": "TGT expires:                  <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.RequestThrottler.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.info",
+    "pattern": "<.*> is down"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.error",
+    "pattern": "Unexpected exception, exiting abnormally"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "The max bytes for all large requests are set to {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "ACLs for node: {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.BlueThrottle.info",
+    "pattern": "Weighed connection throttling is disabled"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumServer.warn",
+    "pattern": "Server address has not been initialized"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.info",
+    "pattern": "Exiting normally"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.info",
+    "pattern": "<.*> = <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.common.X509Util.info",
+    "pattern": "Setting -D {}=true to disable client-initiated TLS renegotiation"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.warn",
+    "pattern": "Quorum Peer interrupted"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.debug",
+    "pattern": "Sending UPTODATE message to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Login.warn",
+    "pattern": "No TGT found: will try again at <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.SelectorThread.warn",
+    "pattern": "Ignoring unexpected exception"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.info",
+    "pattern": "metricsProvider.className is <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.info",
+    "pattern": "Processing <.*> command from <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.error",
+    "pattern": "Unable to truncate Txn log"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "tickTime set to {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "<.*> not found! Creating with a reasonable default of <.*>. This should only happen when you are upgrading your installation"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ZooKeeperMain.debug",
+    "pattern": "Processing <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.SaslClientCallbackHandler.warn",
+    "pattern": "Could not login: the <.*> is being asked for a password, but the ZooKeeper <.*> code does not currently support obtaining a password from the user. Make sure that the <.*> is configured to use a ticket cache (using the JAAS configuration setting 'useTicketCache=true)' and restart the <.*>. If you still get this message after that, the TGT in the ticket cache has expired and must be manually refreshed. To do so, first determine if you are using a password or a keytab. If the former, run kinit in a Unix shell in the environment of the user who is running this Zookeeper <.*> using the command 'kinit <princ>' (where <princ> is the name of the <.*>'s Kerberos principal). If the latter, do 'kinit -k -t <keytab> <princ>' (where <princ> is the name of the Kerberos principal, and <keytab> is the location of the keytab file). After manually refreshing your cache, restart this <.*>. If you continue to see this message after manually refreshing your cache, ensure that your KDC host's clock is in sync with this host's clock."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.info",
+    "pattern": "shutdown called <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.client.ZooKeeperSaslClient.error",
+    "pattern": "SASL authentication failed using login context '<.*>'."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap.error",
+    "pattern": "Cannot boot MetricsProvider <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.error",
+    "pattern": "Exception handling connection, addr: <.*>, closing server connection"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.util.ServiceUtils.info",
+    "pattern": "Exiting JVM with code <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "could not find learner master address=<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "About to leave FLE instance: leader=<.*>, zxid=0x<.*>, my id=<.*>, my state=<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Observer.info",
+    "pattern": "Already connected to requested learner master sid=<.*> addr=<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.util.SecurityUtils.warn",
+    "pattern": "<.*> will not use DIGEST-MD5 as SASL mechanism, because FIPS mode is enabled."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "SnapCount should be 2 or more. Now, snapCount is reset to 2"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.error",
+    "pattern": "Error while reconfiguring"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.common.X509Util.info",
+    "pattern": "Default TLS protocol is {}, supported TLS protocols are {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ReadOnlyZooKeeperServer.info",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Session 0x{}: Authenticated Id '{}' as super user"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Login.warn",
+    "pattern": "error while waiting for Login thread to shutdown."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.BlueThrottle.error",
+    "pattern": "Throttle config values <.*>(<.*>) and <.*>(<.*>) are insane and cause long integer overflow after <.*>ms"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.jmx.ManagedUtil.debug",
+    "pattern": "registerLog4jMBeans()"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Invalid max bytes for all large requests {}. It should be a positive number."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.SyncRequestProcessor.warn",
+    "pattern": "Interrupted while waiting for <.*> to finish"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Listener.info",
+    "pattern": "Leaving listener"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "Startup timed out, trying to close"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj.debug",
+    "pattern": "We lose the quorum, but we do not have any valid followers Oracle:<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ZooKeeperTestable.info",
+    "pattern": "closeSocket() called"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.RestoreCommand.warn",
+    "pattern": "InputStream from restore request is null"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.info",
+    "pattern": "configure <.*> secure: <.*> on addr <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.debug",
+    "pattern": "<.*> setQuorumVerifier called with known or old config <.*>. Current version: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.common.ZKTrustManager.error",
+    "pattern": "Failed to verify host address: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "*****>>>>> Got {} {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.error",
+    "pattern": "Exception while listening to address <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.DataTree.info",
+    "pattern": "The digest in the snapshot has digest version of <.*>, with zxid as 0x<.*>, and digest value as <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.auth.DigestAuthenticationProvider.info",
+    "pattern": "ACL digest algorithm is: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.warn",
+    "pattern": "Send worker leaving thread"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ServerCnxnFactory.info",
+    "pattern": "Using <.*> as server connection factory"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.common.ZKConfig.info",
+    "pattern": "ZK Config {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.jmx.MBeanRegistry.warn",
+    "pattern": "Invalid name \"{}\" for class {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "Committing a reconfiguration (reconfigEnabled=<.*>); this leader is not the designated leader anymore, setting allowedToCommit=false"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "{} = {} ms"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "Dynamic reconfig feature is disabled, skip designatedLeader calculation and reconfig processing."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Observer.info",
+    "pattern": "Disconnected from leader (with address: <.*>). Was connected for <.*>ms. Sync state: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerCnxAcceptor.error",
+    "pattern": "not all the LearnerCnxAcceptorHandler terminated properly"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.util.RequestPathMetricsCollector.PathStatsQueue.start",
+    "pattern": "Failed to insert the new request path stats for {} with exception {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ServerAdminClient.getTraceMask",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.ObserverRequestProcessor.error",
+    "pattern": "Unexpected error in upgrade"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.debug",
+    "pattern": "Initializing leader election protocol..."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.client.StaticHostProvider.error",
+    "pattern": "Unable to resolve address: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "Shutting down messenger"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.error",
+    "pattern": "Unexpected remote address <.*> when removing cnxn <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZKDatabase.error",
+    "pattern": "Unable to read txnlog from disk"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ZooKeeper.info",
+    "pattern": "Initiating client connection, connectString=<.*> sessionTimeout=<.*> watcher=<.*> sessionId=0x<.*> sessionPasswd=<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileSnap.warn",
+    "pattern": "invalid snapshot <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.error",
+    "pattern": "Invalid arguments, exiting abnormally"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Observer.warn",
+    "pattern": "Ignoring proposal"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.error",
+    "pattern": "Reconfig operation requested but reconfig feature is disabled."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ClientCnxn.debug",
+    "pattern": "Disconnecting client for session: 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZKDatabase.info",
+    "pattern": "On disk txn sync enabled with snapshotSizeFactor <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.controller.CommandClient.info",
+    "pattern": "Received <.*> response from the server"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.debug",
+    "pattern": "Trying to close listeners: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Leader.warn",
+    "pattern": "This leader is not the designated leader, it will be initialized with allowedToCommit = false"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.DataTree.debug",
+    "pattern": "Digests are matching for Zxid: <.*>, Digest in log and actual tree: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.SendThread.debug",
+    "pattern": "Reading reply session id: 0x<.*>, packet:: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.CertificateVerifier.error",
+    "pattern": "Unsuccessful handshake with session 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.AcceptThread.warn",
+    "pattern": "Unexpected ops in accept select <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.Login.info",
+    "pattern": "TGT valid starting at:        <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.SyncRequestProcessor.warn",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.SelectorThread.info",
+    "pattern": "selector thread exited run method"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.error",
+    "pattern": "Unable to access datadir, exiting abnormally"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerMaster.setMaxConcurrentDiffSyncs",
+    "pattern": "Set maxConcurrentDiffSyncs to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.warn",
+    "pattern": "Failed to register with JMX"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.client.ZooKeeperSaslClient.error",
+    "pattern": "saslClient is unexpectedly null. Cannot respond to server's SASL message; ignoring."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.SaslServerPrincipal.warn",
+    "pattern": "Could not parse config <.*> \"<.*>\" into a boolean using default <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.DataTree.warn",
+    "pattern": "Unexpected extra paths under session <.*> which are not in txn 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.info",
+    "pattern": "SSL handshake complete with <.*> - <.*> - <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Follower sid: <.*> : info : <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.EventThread.error",
+    "pattern": "Unexpected throwable"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Authentication failed for scheme: {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.debug",
+    "pattern": "dual mode SSL handler added for channel: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "throttledOpWaitTime set to {} ms"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Session establishment request from client {} client's lastZxid is 0x{}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.SnapshotCommand.warn",
+    "pattern": "Snapshot command is disabled"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.info",
+    "pattern": "restarting leader election"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNIO.debug",
+    "pattern": "Ignoring exception during shutdown output"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZKDatabase.warn",
+    "pattern": "Unable to find proposals from txnlog for zxid: 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.admin.SrvrCommand.info",
+    "pattern": "running stat"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.warn",
+    "pattern": "Maintaining learner connection despite SASL authentication failure. server addr: <.*>, <.*>: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.debug",
+    "pattern": "destination address <.*> is reachable for sid <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.info",
+    "pattern": "Notification: <.*> (n.leader), <.*> (n.zxid), <.*> (n.round), <.*> (n.state), <.*> (n.sid), <.*> (n.peerEPoch), <.*> (my state)"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.ZKTrustManager.debug",
+    "pattern": "Check client trusted socket.getInetAddress(): <.*> <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNIO.debug",
+    "pattern": "Ignoring exception during shutdown input"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LeaderConnector.error",
+    "pattern": "Unexpected exception, connectToLeader exceeded. tries=<.*>, remaining init limit=<.*>, connecting to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.SendThread.warn",
+    "pattern": "Session 0x<.*> for server <.*>, Closing socket connection. Attempting reconnect except it is a SessionExpiredException or SessionTimeoutException."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ServerAdminClient.dump",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Caught runtime exception from AuthenticationProvider: {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Client credentials: {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.controller.ZooKeeperServerController.info",
+    "pattern": "processing command <.*><.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.error",
+    "pattern": "SaslClient dispose() failed"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumZooKeeperServer.info",
+    "pattern": "Submitting <.*> closeSession request for session 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.warn",
+    "pattern": "Server interrupted"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.DatadirCleanupManager.info",
+    "pattern": "Shutting down purge task."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.auth.ProviderRegistry.warn",
+    "pattern": "Problems loading <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Restore taken in {} ms"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.Request.error",
+    "pattern": "This really should be impossible."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.info",
+    "pattern": "Connection factory did not start"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "No authentication provider for scheme: {} has {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.Commands.warn",
+    "pattern": "Caught runtime exception from AuthenticationProvider"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.watch.WatchManager.warn",
+    "pattern": "inconsistent watch table for watcher <.*> <.*> not in path list"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.Learner.debug",
+    "pattern": "Reset config node content from local config after deserialization of snapshot."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.error",
+    "pattern": "Initial message parsing error!"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "Ignoring notification as our zxid is -1"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.DataTree.error",
+    "pattern": "caught end of stream exception"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ConnectionExpirerThread.info",
+    "pattern": "ConnectionExpirerThread interrupted"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Sending DIFF zxid=0x<.*> for peer sid: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Halting listener"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.info",
+    "pattern": "Invalid path <.*> with session 0x<.*>, reason: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.error",
+    "pattern": "Unable to start AdminServer, exiting abnormally"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZKDatabase.warn",
+    "pattern": "configuration znode missing (should only happen during upgrade), creating the node"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.auth.SaslServerCallbackHandler.warn",
+    "pattern": "User '<.*>' not found in list of DIGEST-MD5 authenticateable users."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.DatadirCleanupManager.info",
+    "pattern": "autopurge.purgeInterval set to <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.client.ZooKeeperSaslClient.error",
+    "pattern": "Exception while trying to create SASL client."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "maxSessionTimeout set to <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Connected to server <.*> using election address: <.*>:<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Learner.warn",
+    "pattern": "Committing 0x<.*>, but next proposal is 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.warn",
+    "pattern": "Ignoring exception closing cnxn session id 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandlerBean.info",
+    "pattern": "terminating learner handler connection on demand <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.debug",
+    "pattern": "Queueing committedLog 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.info",
+    "pattern": "clientPortAddress is <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "Set the current epoch to <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerSyncThrottler.error",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Learner.warn",
+    "pattern": "Interrupted while trying to connect to Leader"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.CreateMode.error",
+    "pattern": "Received an invalid flag value: <.*> to convert to a CreateMode"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.ZKClientHandler.error",
+    "pattern": "Unexpected throwable"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ServerCnxnFactory.warn",
+    "pattern": "maxCnxns should be greater than or equal to 0, using default value <.*>."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.warn",
+    "pattern": "Too many connections from <.*> - max is <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.X509Util.debug",
+    "pattern": "Ignoring watch event and keeping previous default SSL context. Event kind: {} with context: {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.error",
+    "pattern": "channelRead() on a closed or closing NettyServerCnxn"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ZKWatchManager.warn",
+    "pattern": "We are triggering an exists watch for delete! Shouldn't happen!"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Size of client SASL token: {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.warn",
+    "pattern": "Exception causing close of session {} due to java.io.IOException: ZooKeeperServer not running"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.Login.info",
+    "pattern": "TGT refresh thread started."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "Problem stopping AdminServer"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.CertificateVerifier.error",
+    "pattern": "X509 Auth provider not found: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.error",
+    "pattern": "Exception while submitting quorum connection request"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ZooKeeperTestable.info",
+    "pattern": "injectSessionExpiration() called"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.BlueThrottle.warn",
+    "pattern": "The renew session weight <.*> is less than the local session weight <.*>. Use the local session weight."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.audit.Slf4jAuditLogger.info",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.info",
+    "pattern": "Starting server"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "Stopping ZK Server"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.client.ServerSaslResponseCallback.debug",
+    "pattern": "ServerSaslResponseCallback(): using empty data[] as server response (length=<.*>)"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.info",
+    "pattern": "binding to port <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ServerAdminClient.kill",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Learner.error",
+    "pattern": "Got unexpected packet from leader: <.*>, exiting ... "
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerZooKeeperServer.warn",
+    "pattern": "Failed to register with JMX"
+  },
+  {
+    "level": "ERROR",
+    "method": "undefined.undefined",
+    "pattern": "undefined template"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnLog.info",
+    "pattern": "{} = {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Initial message parsed by <.*>: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.audit.AuditHelper.error",
+    "pattern": "Failed to audit log request <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "ACL check against illegal node path: {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.util.ServiceUtils.info",
+    "pattern": "JVM should exit with code <.*>. Actually System.exit is disabled"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.error",
+    "pattern": "Exception while closing"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "Learner received NEWLEADER message"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.RequestThrottler.warn",
+    "pattern": "Interrupted while waiting for <.*> to finish"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "<.*>=<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "After restore database. lastProcessedZxid={}, nodeCount={}, sessionCount={}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.Login.info",
+    "pattern": "TGT refresh sleeping until: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "{}={}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.FinalRequestProcessor.info",
+    "pattern": "shutdown of request processor complete"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.Commands.warn",
+    "pattern": "This ZooKeeper instance is not currently serving requests for command"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "Suggested leader: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "Shutdown called. For the reason {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.error",
+    "pattern": "Dumping request buffer for request type <.*>: 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LeaderZooKeeperServer.warn",
+    "pattern": "Could not register connection"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.debug",
+    "pattern": "Sending NEWLEADER message to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Shell.warn",
+    "pattern": "Interrupted while reading the error stream"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.RateLogger.warn",
+    "pattern": "Message: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Follower.info",
+    "pattern": "shutdown Follower"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "ZKShutdownHandler is not registered, so ZooKeeper server won't take any action on ERROR or SHUTDOWN server state changes"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Local sessions <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.warn",
+    "pattern": "Close of session 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.command.FourLetterCommands.info",
+    "pattern": "The list of known four letter word commands is : <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FilePadding.warn",
+    "pattern": "<.*> is not a valid value for preAllocSize"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.ZKTrustManager.debug",
+    "pattern": "Check server trusted socket.getInetAddress(): <.*> <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.util.RequestPathMetricsCollector.shutdown",
+    "pattern": "shutdown scheduledExecutor"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.warn",
+    "pattern": "Ignoring exception closing cnxn sessionid 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerSender.run",
+    "pattern": "LearnerSender exited"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "Failed to register with JMX"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.AdminServerFactory.warn",
+    "pattern": "Unable to start JettyAdminServer"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "Closing connection to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "Failed to unregister with JMX"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.client.ZooKeeperSaslClient.debug",
+    "pattern": "saslClient.evaluateChallenge(len=<.*>)"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Learner.error",
+    "pattern": "Not able to truncate the log 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "clientPortListenBacklog set to {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.warn",
+    "pattern": "Ignoring error closing connection to learner <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.info",
+    "pattern": "observerMasterPort is not set"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.AuthenticationHelper.error",
+    "pattern": "Client authentication scheme(s) <.*> does not match with any of the expected authentication scheme <.*>, closing session."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ContainerManager.error",
+    "pattern": "Could not delete container: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.debug",
+    "pattern": "ignoring exception during selectionkey cancel"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.auth.IPAuthenticationProvider.warn",
+    "pattern": "Input string does not resemble an IPv4 or IPv6 address: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.SnapshotCommand.warn",
+    "pattern": "Exception occurred when taking the snapshot via the snapshot admin command"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.controller.CommandHandler.error",
+    "pattern": "Bad argument or command"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Listener.warn",
+    "pattern": "Exception when shutting down listener: "
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.CommitProcessor.info",
+    "pattern": "Configuring CommitProcessor with commitBatchSize <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.watch.WatcherCleaner.info",
+    "pattern": "Received InterruptedException while waiting for cleanEvent"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.util.OSMXBean.warn",
+    "pattern": "Not able to get the max number of file descriptors"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZKDatabase.info",
+    "pattern": "<.*> = <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Follower.warn",
+    "pattern": "Got zxid 0x<.*> expected 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ReferenceCountedACLCache.info",
+    "pattern": "Ignoring acl <.*> as it does not exist in the cache"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.error",
+    "pattern": "unable to set up client certificate reload filewatcher"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.util.RequestPathMetricsCollector.PathStatsQueue.start",
+    "pattern": "Failed to insert the new request path stats for {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.error",
+    "pattern": "First packet {} is not FOLLOWERINFO or OBSERVERINFO!"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Learner.error",
+    "pattern": "Interrupted while terminating LeaderConnector executor."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Follower.warn",
+    "pattern": "Unknown packet type: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Follower sid: <.*> not in the current config <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.util.SecurityUtils.error",
+    "pattern": "Zookeeper Quorum member failed to create a SaslServer to interact with a client during session initiation"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerCnxAcceptor.error",
+    "pattern": "Interrupted while terminating LearnerCnxAcceptor."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.DataTree.debug",
+    "pattern": "Digest in log: <.*>, actual tree: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.SnapStream.info",
+    "pattern": "Invalid snapshot <.*>. too short, len = <.*> bytes"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.error",
+    "pattern": "No queue of incoming messages for server <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Closing session 0x{}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.watch.WatchManagerOptimized.debug",
+    "pattern": "Ignoring addWatch with closed cnxn"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ClientCnxn.warn",
+    "pattern": "Got interrupted while waiting for the sender thread to close"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ServerCnxnFactory.warn",
+    "pattern": "exception during session close"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "Getting a diff from the leader 0x<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.common.X509Util.error",
+    "pattern": "Error parsing config property {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.warn",
+    "pattern": "trying to do i/o on a null socket for session: 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerZooKeeperServer.warn",
+    "pattern": "Failed to unregister with JMX"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Added JvmPauseMonitor to server"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.error",
+    "pattern": "Unable to load database on disk"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.ObserverMaster.error",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "ZK server died. Requesting stop on JVM"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "id: <.*>, proposed id: <.*>, zxid: 0x<.*>, proposed zxid: 0x<.*>, epoch: 0x<.*>, proposed epoch: 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.info",
+    "pattern": "{} : {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.AdminServerFactory.warn",
+    "pattern": "Unable to load jetty, not starting JettyAdminServer"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.auth.KeyAuthenticationProvider.debug",
+    "pattern": "KeyAuthenticationProvider handleAuthentication -> OK.\n"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ProposalRequestProcessor.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Create new connection to server: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.error",
+    "pattern": "Missing node for stat {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.RequestThrottler.info",
+    "pattern": "Draining request throttler queue"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.watch.WatcherCleaner.info",
+    "pattern": "WatcherCleaner thread exited"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.DualModeSslHandler.debug",
+    "pattern": "creating plaintext handler for session <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.auth.DigestAuthenticationProvider.error",
+    "pattern": "Missing algorithm"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.SendThread.error",
+    "pattern": "Read/write client got connected to read-only server"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.DataTree.debug",
+    "pattern": "Ignoring processTxn failure hdr: <.*> : error: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "There is a connection already for server <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Request has an invalid ACL check"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "syncLimit set to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.warn",
+    "pattern": "Unhandled scenario for peer sid: <.*> maxCommittedLog=0x<.*> minCommittedLog=0x<.*> lastProcessedZxid=0x<.*> peerLastZxid=0x<.*> txnLogSyncEnabled=<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.FollowerRequestProcessor.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerSender.shutdown",
+    "pattern": "Shutting down LearnerSender"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Size of server SASL response: {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Listener.info",
+    "pattern": "Election port bind maximum retries is <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.common.SecretUtils.info",
+    "pattern": "Reading secret from <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileSnap.warn",
+    "pattern": "problem reading snap file <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.DataTree.debug",
+    "pattern": "Deleting ephemeral node <.*> for session <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.ZKTrustManager.debug",
+    "pattern": "Check server trusted engine.getPeerHost(): <.*> <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.command.AbstractFourLetterCommand.error",
+    "pattern": "Error in running command "
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.ZKTrustManager.debug",
+    "pattern": "Failed to verify host address: <.*>, but inetAddress <.*> has a hostname, trying that"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.WorkerSender.info",
+    "pattern": "<.*> is down"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "Running ZK Server in single STANDALONE MODE"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.Login.debug",
+    "pattern": "Server principal is \"<.*>\"."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.audit.ZKAuditProvider.info",
+    "pattern": "ZooKeeper audit is disabled."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.controller.ZooKeeperServerController.error",
+    "pattern": "Fatal error starting quorum peer<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Use txnlog and committedLog for peer sid: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.X509Util.debug",
+    "pattern": "Attempting to reset default SSL context after receiving watch event: {} with context: {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.auth.SaslServerCallbackHandler.warn",
+    "pattern": "No password found for user: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.watch.WatcherCleaner.info",
+    "pattern": "Got interrupted while waiting for dead watches queue size"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Listener.error",
+    "pattern": "As I'm leaving the listener thread, I won't be able to participate in leader election any longer: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.DataTree.error",
+    "pattern": "Failed to set parent cversion for: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.info",
+    "pattern": "binding to port <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.RateLogger.warn",
+    "pattern": "[<.*> times] Message: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.debug",
+    "pattern": "Processing ACL: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.RestoreCommand.warn",
+    "pattern": "Exception occurred when restore snapshot via the restore command"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerCnxAcceptor.error",
+    "pattern": "Interrupted while sleeping in LearnerCnxAcceptor."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.error",
+    "pattern": "Something went wrong while processing config received from <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.info",
+    "pattern": "secureClientPort is not set"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooTrace.info",
+    "pattern": "Set text trace mask to 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.RestoreCommand.warn",
+    "pattern": "Restore command is disabled"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.SyncRequestProcessor.warn",
+    "pattern": "Too busy to snap, skipping"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.auth.X509AuthenticationProvider.warn",
+    "pattern": "Truststore not specified for client connection"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.jmx.MBeanRegistry.warn",
+    "pattern": "Failed to register MBean <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.Commands.warn",
+    "pattern": "Auth Id list is empty"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerCnxAcceptorHandler.error",
+    "pattern": "Exception while connecting to quorum learner"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.error",
+    "pattern": "Severe unrecoverable error, exiting"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Queue size: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.SendThread.debug",
+    "pattern": "Fail to close ongoing socket"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Expiring session {}, timeout of {}ms exceeded"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "Restarting Leader Election"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.EventThread.error",
+    "pattern": "Error while calling watcher."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "Forcing a snapshot write as part of upgrading from an older Zookeeper. This should only happen while upgrading."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.DataTree.warn",
+    "pattern": "Missing quota stat node <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.auth.DigestAuthenticationProvider.info",
+    "pattern": "<.*> = <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.error",
+    "pattern": "too many concurrent sync."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.util.SecurityUtils.debug",
+    "pattern": "SASL mechanism(mech) is '<.*>'"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.error",
+    "pattern": "Exception while connecting, id: <.*>, addr: <.*>, closing learner connection"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.info",
+    "pattern": "Got user-level KeeperException when processing <.*> aborting remaining multi ops. Error Path:<.*> Error:<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Learner.warn",
+    "pattern": "Missing session 0x<.*> for validation"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.FinalRequestProcessor.error",
+    "pattern": "Failed to process <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.common.ZKConfig.info",
+    "pattern": "Reading configuration from: {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.info",
+    "pattern": "Exiting normally"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.common.IOUtils.warn",
+    "pattern": "Exception in closing <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.debug",
+    "pattern": "Ignoring processTxn failure hdr: <.*>, error: <.*>, path: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.info",
+    "pattern": "observerMasterPort is <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.SendThread.debug",
+    "pattern": "Session establishment request sent on <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj.error",
+    "pattern": "Oracle is not set, return false"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj.debug",
+    "pattern": "Start Revalidation outstandingProposals"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Session 0x{}: adding SASL authorization for authorizationID: {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Login.warn",
+    "pattern": "Could not renew TGT due to problem running shell command: '<.*> <.*>'. Exiting refresh thread."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ZKUtil.deleteRecursive",
+    "pattern": "Deleting tree: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "Current configuration is at {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperThread.warn",
+    "pattern": "Exception occurred from thread <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Synchronizing with Learner sid: <.*> maxCommittedLog=0x<.*> minCommittedLog=0x<.*> lastProcessedZxid=0x<.*> peerLastZxid=0x<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.CertificateVerifier.error",
+    "pattern": "Authentication failed for session 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.AcceptThread.warn",
+    "pattern": "Ignoring unexpected runtime exception"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.RecvWorker.debug",
+    "pattern": "RecvWorker thread towards <.*> started. myId: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.BlueThrottle.info",
+    "pattern": "Weighed connection throttling is enabled. But it will only be effective if connection throttling is enabled"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.DataTree.info",
+    "pattern": "The digest value is empty in snapshot"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.NettyUtils.debug",
+    "pattern": "Ignoring multicast InetAddress <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ResponderThread.warn",
+    "pattern": "Unexpected runtime exception in ResponderThread"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.SendAckRequestProcessor.warn",
+    "pattern": "Closing connection to leader, exception during packet send"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Learner.warn",
+    "pattern": "Couldn't find the leader with id = <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "<.*> txns have been committed"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ZookeeperBanner.info",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.RecvWorker.warn",
+    "pattern": "Connection broken for id <.*>, my id = <.*>, error ="
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.ObserverMaster.debug",
+    "pattern": "Ignoring accept exception (maybe shutting down)"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.DualModeSslHandler.debug",
+    "pattern": "creating ssl handler for session <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.info",
+    "pattern": "Backward compatibility mode (before reconfig), server id: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.warn",
+    "pattern": "No server failure will be tolerated. You need at least 3 servers."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Observer.info",
+    "pattern": "Observing new leader sid=<.*> addr=<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Server environment:{}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.error",
+    "pattern": "Invalid arguments, exiting abnormally"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Sending TRUNC zxid=0x<.*>  for peer sid: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.ZKTrustManager.debug",
+    "pattern": "Failed to verify host address: <.*>, attempting to verify host name with reverse dns"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "IOException"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.jmx.MBeanRegistry.warn",
+    "pattern": "Error during unregister of [{}]"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.common.AtomicFileOutputStream.warn",
+    "pattern": "Unable to abort file <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.common.WatcherThread.info",
+    "pattern": "<.*> thread started"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.SendThread.debug",
+    "pattern": "Got notification session id: 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "{} = {}ms"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNIO.debug",
+    "pattern": "Ignoring exception during selecting of cancelled socket"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.warn",
+    "pattern": "Exception when shutting down listener: "
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ResponderThread.warn",
+    "pattern": "QuorumPeer responder thread exited"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Learner.warn",
+    "pattern": "DIFF sync got new epoch proposal 0x<.*>, last queued 0x<.*>, expected 0x<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.auth.Status.error",
+    "pattern": "Unknown status:<.*>!"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LeaderRequestProcessor.warn",
+    "pattern": "Error creating upgrade request"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj.info",
+    "pattern": "Oracle is set to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Leader.warn",
+    "pattern": "Committing zxid 0x{} from {} not first!"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "Number of connection processing threads: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.watch.WatcherCleaner.info",
+    "pattern": "WatcherCleaner thread shutdown is initiated"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.debug",
+    "pattern": "Sending new notification. My id =<.*> recipient=<.*> zxid=0x<.*> leader=<.*> config version = <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Permission requested: {} "
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.Login.error",
+    "pattern": "The TGT cannot be renewed beyond the next expiry date: <.*>.This process will not be able to authenticate new SASL connections after that time (for example, it will not be authenticate a new connection with a Zookeeper Quorum member).  Ask your system administrator to either increase the 'renew until' time by doing : 'modprinc -maxrenewlife <.*>' within kadmin, or instead, to generate a keytab for <.*>. Because the TGT's expiry cannot be further extended by refreshing, exiting refresh thread now."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "<.*> found. Setting current epoch to <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LeaderConnector.info",
+    "pattern": "Connection to the leader is already established, close the redundant connection"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ReferenceCountedACLCache.error",
+    "pattern": "ERROR: ACL not available for long <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.Leader.debug",
+    "pattern": "proposal has already been committed, pzxid: 0x{} zxid: 0x{}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.auth.X509AuthenticationProvider.info",
+    "pattern": "Authenticated Id '<.*>' as super user"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Unexpected interruption"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.audit.Slf4jAuditLogger.error",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Listener.info",
+    "pattern": "'{}' contains invalid value: <.*>(must be >= 0). Use default value of <.*> instead."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.warn",
+    "pattern": "Interrupted while waiting for message on queue"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Learner.error",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerZooKeeperServer.warn",
+    "pattern": "Ignoring unexpected exception during shutdown"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.info",
+    "pattern": "Successfully completed the authentication using SASL. server addr: {}, status: {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNetty.warn",
+    "pattern": "future isn't success."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.admin.JettyAdminServer.error",
+    "pattern": "Failed to load authentication certificates for admin server."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.FollowerZooKeeperServer.warn",
+    "pattern": "Not expecting a sync."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.BlueThrottle.warn",
+    "pattern": "Invalid global session weight <.*>. It should be larger than 0"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.util.RequestPathMetricsCollector.start",
+    "pattern": "Start the RequestPath collector"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.SelectorThread.warn",
+    "pattern": "Ignoring unexpected runtime exception"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.error",
+    "pattern": "error during server lifecycle"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Shell.warn",
+    "pattern": "Error while closing the error stream"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical.debug",
+    "pattern": "Group weight: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical.debug",
+    "pattern": "One zero-weight group: 1, <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LeaderConnector.error",
+    "pattern": "connectToLeader exceeded on retries."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.info",
+    "pattern": "Closing connection to <.*> because the server is not ready (server state is: <.*>)"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Observer.info",
+    "pattern": "Requesting disconnect and reconnect to new learner master sid=<.*> addr=<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.info",
+    "pattern": "My election bind port: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.error",
+    "pattern": "Failed to authenticate using SASL"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ZKClientPipelineFactory.info",
+    "pattern": "SSL handler added for channel: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.SSLContextAndOptions.debug",
+    "pattern": "Setup cipher suites for <.*> socket: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Updated learner master list to be <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.FinalRequestProcessor.debug",
+    "pattern": "Processing request:: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.controller.ControllerService.error",
+    "pattern": "Failed to start ControllerService."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "Drop incoming message during connection closing for session 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.info",
+    "pattern": "Zookeeper server is not running, close the connection to <.*> before starting the TLS handshake"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.debug",
+    "pattern": "Address of remote peer: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Received packet at server of unknown type {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.CommitProcessor.info",
+    "pattern": "Configuring CommitProcessor with <.*> worker threads."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ClientCnxnSocket.warn",
+    "pattern": "Connected to an old server; r-o mode will be unavailable"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "connectToLearnerMasterLimit set to <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "<.*> set to <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "FLE is down"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.util.SecurityUtils.warn",
+    "pattern": "Cannot add private credential to subject; authentication at the server may fail"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.SendThread.warn",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.BlueThrottle.warn",
+    "pattern": "The global session weight <.*> is less than the local session weight <.*>. Use the local session weight."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.warn",
+    "pattern": "Unexpected interruption"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Using committedLog for peer sid: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "SyncEnabled:{}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.DataTree.error",
+    "pattern": "Missing node for stat <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "{} = {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.error",
+    "pattern": "Error while closing server socket."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Connection request from old client {}; will be dropped if server is in r-o mode"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.BlueThrottle.warn",
+    "pattern": "Invalid local session weight <.*>. It should be larger than 0"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.FollowerRequestProcessor.error",
+    "pattern": "Unexpected error in upgrade"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Sending snapshot last zxid of peer is 0x<.*>, zxid of leader is 0x<.*>, send zxid of db as 0x<.*>, <.*> concurrent snapshot sync, snapshot sync was <.*> from throttle"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ServerCnxn.info",
+    "pattern": "Error closing PrintWriter"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.common.WatcherThread.error",
+    "pattern": "Error from callback"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.DataTree.error",
+    "pattern": "First digest mismatch on txn: <.*>, <.*>, expected digest is <.*>, actual digest is <.*>, "
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.info",
+    "pattern": "Initialize file found, an empty database will not block voting participation"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.warn",
+    "pattern": "Non-optimal configuration, consider an odd number of servers."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.X509Util.debug",
+    "pattern": "FIPS mode is ON: selecting standard x509 trust manager {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.error",
+    "pattern": "Invalid config, exiting abnormally"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Connection request to server id: <.*> is already in progress, so skipping this request"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.auth.X509AuthenticationProvider.error",
+    "pattern": "Failed to authenticate session 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ObserverRequestProcessor.info",
+    "pattern": "ObserverRequestProcessor exited loop!"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "ZK Server started"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Observer.warn",
+    "pattern": "Unknown packet type: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "SyncLimit:{}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ObserverRequestProcessor.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.error",
+    "pattern": "setLastSeenQuorumVerifier called with stale config <.*>. Current version: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "multiAddress.enabled set to <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNetty.info",
+    "pattern": "channel is told closing"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.error",
+    "pattern": "Server failed to authenticate quorum learner, addr: {}, closing connection"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.util.ServiceUtils.error",
+    "pattern": "Exiting JVM with code <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Packet.warn",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.controller.CommandListener.info",
+    "pattern": "CommandListener server host: <.*> with port: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.error",
+    "pattern": "Unexpected exception, exiting abnormally"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Attempting to start ReadOnlyZooKeeperServer"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.warn",
+    "pattern": "Skipping the processing of a partial / malformed response message sent by sid=<.*> (message length: <.*>)"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Observer.warn",
+    "pattern": "Ignoring commit"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.controller.CommandClient.info",
+    "pattern": "Sent command <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.util.RequestPathMetricsCollector.<init>",
+    "pattern": "{} = {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.SnapshotCommand.warn",
+    "pattern": "Snapshot command requires serializeLastProcessedZxidEnable flag is set to true"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.error",
+    "pattern": "Error writing next dynamic config file to disk"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.error",
+    "pattern": "Invalid config, exiting abnormally"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "DataDir:{}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ClientCnxn.debug",
+    "pattern": "Closing client for session: 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.controller.ControllableConnection.warn",
+    "pattern": "IO Exception occurred"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.warn",
+    "pattern": "Unexpected empty data tree, setting zxid to -1"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.AbstractSelectThread.warn",
+    "pattern": "Unable to set socket linger to 0, socket close may stall in CLOSE_WAIT"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "0x<.*> queuedBuffer: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.debug",
+    "pattern": "Received NEWLEADER-ACK message from <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.info",
+    "pattern": "Received connection request <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Closing client connection due to SASL authentication failure."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler.debug",
+    "pattern": "SASL authorization completed, authorized flag set to <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.SendThread.info",
+    "pattern": "Opening socket connection to server <.*>."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZKDatabase.error",
+    "pattern": "Error parsing <.*> - use default value <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.util.SecurityUtils.error",
+    "pattern": "Exception while trying to create SASL client"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "LEADING"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.Listener.debug",
+    "pattern": "Closing listener: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.SendThread.info",
+    "pattern": "Session establishment complete on server <.*>, session id = 0x<.*>, negotiated timeout = <.*><.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZKDatabase.warn",
+    "pattern": "The configured commitLogCount <.*> is less than the recommended <.*>, going to use the recommended one"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.FinalRequestProcessor.debug",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Using TLS encrypted quorum communication"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.ZooKeeper.error",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.warn",
+    "pattern": "Cannot send TRUNC to peer sid: <.*> peer zxid is from different epoch"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.error",
+    "pattern": "Error closing file"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.info",
+    "pattern": "Have smaller server identifier, so dropping the connection: (<.*>, <.*>)"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "cannot validate request, observer masters not enabled"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.NettyUtils.debug",
+    "pattern": "Ignoring link-local InetAddress <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.error",
+    "pattern": "Missing AuthenticationProvider for <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Leader.warn",
+    "pattern": "Trying to commit future proposal: zxid 0x{} from {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "Sending unthrottle event <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.util.SecurityUtils.debug",
+    "pattern": "Added private credential to service principal name: '<.*>', GSSCredential name: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.debug",
+    "pattern": "Received ReadEvent.ENABLE"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.BlueThrottle.warn",
+    "pattern": "Invalid renew session weight <.*>. It should be larger than 0"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.Leader.debug",
+    "pattern": "outstanding is 0"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.debug",
+    "pattern": "Removing entry from senderWorkerMap sid=<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Forcing snapshot sync is enabled"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.debug",
+    "pattern": "Starting quorum peer"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "Received message while throttled"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.client.ZooKeeperSaslClient.debug",
+    "pattern": "JAAS loginContext is: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical.debug",
+    "pattern": "Majority group counter: <.*>, <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "QuorumPeer communication is not secured! (SASL auth disabled)"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.warn",
+    "pattern": "Unable to register log4j JMX control"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.util.VerifyingFileFactory.warn",
+    "pattern": "<.*> is relative. Prepend <.*> to indicate that you're sure!"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "Error closing logs "
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.info",
+    "pattern": "Incremental reconfig"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.SelectorThread.warn",
+    "pattern": "Ignoring IOException while selecting"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.util.JVMMonitor.warn",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Closing client connection due to server requires client SASL authentication,but client SASL authentication has failed, or client is not configured with SASL authentication."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "cnxns size:<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.DatadirCleanupManager.info",
+    "pattern": "autopurge.snapRetainCount set to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.common.WatcherThread.warn",
+    "pattern": "Error in runLoop()"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Async handling of connection request received from: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Follower.info",
+    "pattern": "Disconnected from leader (with address: <.*>). Was connected for <.*>ms. Sync state: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "{} = {}, Quota Enforce enables"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.info",
+    "pattern": "PrepRequestProcessor (sid:<.*>) started, reconfigEnabled=<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.client.ZooKeeperSaslClient.debug",
+    "pattern": "Could not retrieve login configuration"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "Updating proposal: <.*> (newleader), 0x<.*> (newzxid), <.*> (oldleader), 0x<.*> (oldzxid)"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.CommitProcessor.info",
+    "pattern": "Configuring CommitProcessor with readBatchSize <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.common.AtomicFileOutputStream.warn",
+    "pattern": "Unable to delete tmp file during abort <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.DatadirCleanupManager.warn",
+    "pattern": "Purge task is already running."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.info",
+    "pattern": "undefined template"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Observer.warn",
+    "pattern": "Exception when observing the leader"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNIO.debug",
+    "pattern": "Deferring non-priming packet <.*> until SASL authentication completes."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.DataTree.info",
+    "pattern": "Digest version changed, local: <.*>, new: <.*>, skip comparing digest now."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ServerAdminClient.setTraceMask",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.warn",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.error",
+    "pattern": "FAILED to start ReadOnlyZooKeeperServer"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "Processed queue - no bytes remaining"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.SessionTrackerImpl.debug",
+    "pattern": "Adding session 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.info",
+    "pattern": "Got user-level KeeperException when processing <.*> Error Path:<.*> Error:<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.info",
+    "pattern": "binding to port <.*>, <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.admin.JettyAdminServer.info",
+    "pattern": "Successfully loaded private key from <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.Login.error",
+    "pattern": "Could not refresh TGT for principal: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.warn",
+    "pattern": "Notification state unrecognized: <.*> (n.state), <.*>(n.sid)"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnLog.warn",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Sending DIFF zxid=0x<.*>  for peer sid: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.debug",
+    "pattern": "PeerState set to OBSERVER"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.warn",
+    "pattern": "Peer type from servers list (<.*>) doesn't match peerType (<.*>). Defaulting to servers list."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.Listener.debug",
+    "pattern": "Listener thread started, myId: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "queue empty"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.Login.error",
+    "pattern": "next refresh: <.*> is later than expiry <.*>. This may indicate a clock skew problem. Check that this host and the KDC's hosts' clocks are in sync. Exiting refresh thread."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Zxid outstanding 0x{} is less than current 0x{}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.info",
+    "pattern": "already shutdown <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.SendThread.warn",
+    "pattern": "SASL configuration failed. Will continue connection to Zookeeper server without SASL authentication, if Zookeeper server allows it."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.StreamOutputter.warn",
+    "pattern": "Exception streaming out data to <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.FollowerRequestProcessor.info",
+    "pattern": "FollowerRequestProcessor exited loop!"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.debug",
+    "pattern": "Opening datadir:<.*> snapDir:<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ZooKeeper.debug",
+    "pattern": "Ignoring unexpected exception during close"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.debug",
+    "pattern": "Received ReadEvent.DISABLE"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.warn",
+    "pattern": "The socket is listening for the election accepted and it timed out unexpectedly, but will retry.see ZOOKEEPER-2836"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.debug",
+    "pattern": "saslClient.evaluateChallenge(len={})"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.SendThread.info",
+    "pattern": "Socket connection established, initiating session, client: <.*>, server: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LeaderSessionTracker.info",
+    "pattern": "Committing global session 0x<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.DualModeSslHandler.debug",
+    "pattern": "first byte <.*> does not match TLS handshake, failing to plaintext"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.RateLogger.warn",
+    "pattern": "Message:<.*> Value:<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.UpgradeableSessionTracker.info",
+    "pattern": "Upgrading session 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "minSessionTimeout set to {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerCnxAcceptorHandler.warn",
+    "pattern": "Error closing socket: {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LeaderConnector.error",
+    "pattern": "Failed connect to <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.debug",
+    "pattern": "Issued a read after queuedBuffer drained"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.DatadirCleanupManager.warn",
+    "pattern": "Purge task not started. Ignoring shutdown!"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnLog.warn",
+    "pattern": "Ignoring exception during close"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.info",
+    "pattern": "Oracle indicates to follow"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.info",
+    "pattern": "bound to port <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.warn",
+    "pattern": "Ignoring unexpected exception during shutdown"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "Notification election epoch is smaller than logicalclock. n.electionEpoch = 0x<.*>, logicalclock=0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Observer.info",
+    "pattern": "shutdown Observer"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.AckRequestProcessor.error",
+    "pattern": "Null QuorumPeer"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.ClientCnxnSocket.error",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "{} = {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "PeerType:{}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.util.OSMXBean.warn",
+    "pattern": "Not able to get the number of open file descriptors"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.error",
+    "pattern": "Unable to access datadir, exiting abnormally"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Shell.warn",
+    "pattern": "Error while closing the input stream"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNetty.info",
+    "pattern": "connect attempt cancelled"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.error",
+    "pattern": "undefined template"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.RestoreCommand.warn",
+    "pattern": "Restore request was rate limited"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.command.FourLetterCommands.info",
+    "pattern": "The list of enabled four letter word commands is : <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.warn",
+    "pattern": "Error closing listen socket"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.debug",
+    "pattern": "Digest got from data tree is: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.warn",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Peer state changed: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.debug",
+    "pattern": "SendWorker thread started towards <.*>. myId: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.debug",
+    "pattern": "Should not be here"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.debug",
+    "pattern": "Start forwarding 0x<.*> for peer sid: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.Commands.warn",
+    "pattern": "Error occurred during auth for command"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.Login.error",
+    "pattern": "Interrupted during login retry after LoginException:"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Observer.warn",
+    "pattern": "No learner master found"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.debug",
+    "pattern": "closeAll()"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.error",
+    "pattern": "Error cancelling command selection key"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "Running ZK Server in single Quorum MODE"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LeaderConnector.error",
+    "pattern": "Unexpected exception, retries exceeded. tries=<.*>, remaining init limit=<.*>, connecting to <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Synchronously closing socket to learner <.*>."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.info",
+    "pattern": "<.*> Received version: <.*> my version: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.error",
+    "pattern": "unable to set up SslAuthProvider, turning off client port unification"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "Sent NEWLEADER ack to leader with zxid 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.util.SecurityUtils.info",
+    "pattern": "<.*> will use DIGEST-MD5 as SASL mechanism."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.error",
+    "pattern": "Unexpected exception in LearnerHandler."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ZooKeeper.info",
+    "pattern": "Initiating client connection, connectString=<.*> sessionTimeout=<.*> watcher=<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.warn",
+    "pattern": "unknown type <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.error",
+    "pattern": "<.*>(highestZxid) > <.*>(next log) for type <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "Servers:{}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.Login.info",
+    "pattern": "<.*> successfully logged in."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "Adding vote: from=<.*>, proposed leader=<.*>, proposed zxid=0x<.*>, proposed election epoch=0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.DataTree.info",
+    "pattern": "The zxid of snapshot digest 0x<.*> is smaller than the known snapshot highest zxid, the snapshot started with zxid 0x<.*>. It will be invalid to use this snapshot digest associated with this zxid, will ignore comparing it."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.auth.SaslServerCallbackHandler.info",
+    "pattern": "Successfully authenticated client: authenticationID=<.*>;  authorizationID=<.*>."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Becoming an observer"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Will not change the setting. The max bytes stay at {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ClientCnxn.info",
+    "pattern": "<.*> value is <.*>. feature enabled=<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.debug",
+    "pattern": "ignoring exception during input shutdown"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.error",
+    "pattern": "Attempting to start sending thread after it already started"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ServerCnxnFactory.error",
+    "pattern": "Too many connections <.*> - max is <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LeaderZooKeeperServer.warn",
+    "pattern": "Failed to register with JMX"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj.debug",
+    "pattern": "Re-validate outstanding proposal: 0x<.*> size:<.*> lastCommitted:<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.Environment.info",
+    "pattern": "<.*><.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.common.WatcherThread.warn",
+    "pattern": "Error closing watch service"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.Login.info",
+    "pattern": "Initiating re-login for <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.controller.CommandClient.warn",
+    "pattern": "Exception during shutdown"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.info",
+    "pattern": "<.*> txns loaded in <.*> ms"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.warn",
+    "pattern": "Cannot open secure channel to <.*> at election address <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "Problem starting AdminServer"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.watch.WatchManager.debug",
+    "pattern": "Ignoring addWatch with closed cnxn"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.AcceptThread.warn",
+    "pattern": "Ignoring unexpected exception"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ClientCnxnSocket.info",
+    "pattern": "<.*> value is <.*> Bytes"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.debug",
+    "pattern": "Closing <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "initLimit set to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.auth.X509AuthenticationProvider.warn",
+    "pattern": "keystore not specified for client connection"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Follower.error",
+    "pattern": "Received an UPTODATE message after Follower started"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ObserverRequestProcessor.info",
+    "pattern": "Error creating upgrade request"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.FollowerRequestProcessor.warn",
+    "pattern": "Error creating upgrade request"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical.debug",
+    "pattern": "Set size: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.RequestThrottler.debug",
+    "pattern": "Shutdown in progress. Request cannot be processed"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.JsonOutputter.warn",
+    "pattern": "Exception writing command response to JSON:"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Login.warn",
+    "pattern": "Not attempting to re-login since the last re-login was attempted less than <.*> seconds before."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Before restore database. lastProcessedZxid={}, nodeCount={}，sessionCount={}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ZooKeeperMain.debug",
+    "pattern": "Unable to start jline"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.warn",
+    "pattern": "We got a connection request from a server with our own ID. This should be either a configuration error, or a bug."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.CommitProcessor.error",
+    "pattern": "Throttled request in committed pool: <.*>. Exiting."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.Login.info",
+    "pattern": "Initiating logout for <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Maintaining client connection despite SASL authentication failure."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.FollowerZooKeeperServer.warn",
+    "pattern": "Could not register connection"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.util.SecurityUtils.info",
+    "pattern": "<.*> will use GSSAPI as SASL mechanism."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Learner.error",
+    "pattern": "Missing signature. Got <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.JsonOutputter.warn",
+    "pattern": "Exception writing command response as JSON to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.common.SSLContextAndOptions.warn",
+    "pattern": "Invalid value for <.*>: <.*>, using the default value of <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.auth.SaslServerCallbackHandler.info",
+    "pattern": "Setting authorizedID: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.DataTree.warn",
+    "pattern": "Ignoring NoNodeException for path <.*> while removing ephemeral for dead session <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.util.SecurityUtils.error",
+    "pattern": "Zookeeper Server failed to create a SaslServer to interact with a client during session initiation"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "Set {} to {}ms"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnIterator.debug",
+    "pattern": "Created new input stream: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.X509Util.debug",
+    "pattern": "Loading SSLContext supplier from property '{}'"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.AcceptThread.info",
+    "pattern": "accept thread exited run method"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.info",
+    "pattern": "Invalid path <.*> with session 0x<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.debug",
+    "pattern": "Sending TRUNC to follower zxidToSend=0x<.*> for peer sid:<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ServerCnxnFactory.info",
+    "pattern": "maxCnxns configured value is <.*>."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.auth.IPAuthenticationProvider.warn",
+    "pattern": "Fail to parse <.*> as IPv6 address: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.info",
+    "pattern": "Creating TLS-only quorum server socket"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.AcceptThread.debug",
+    "pattern": "Accepted socket connection from <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.SessionTrackerImpl.info",
+    "pattern": "SessionTrackerImpl exited loop!"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.auth.X509AuthenticationProvider.info",
+    "pattern": "Authenticated Id '<.*>' for scheme '<.*>'"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Port unification <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnIterator.debug",
+    "pattern": "Created new input archive: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Local session upgrading <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Leader.error",
+    "pattern": "Throttled request send as proposal: {}. Exiting."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.persistence.Util.error",
+    "pattern": "Last transaction was partial."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ZooKeeperTestable.info",
+    "pattern": "queueEvent() called: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.SyncRequestProcessor.warn",
+    "pattern": "Got request processor exception during shutdown"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ResponseCache.info",
+    "pattern": "<.*> response cache size is initialized with value <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Becoming a non-voting participant"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.error",
+    "pattern": "Thread <.*> died"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ZooKeeper.warn",
+    "pattern": "unknown type <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Interrupted while attempting to start ReadOnlyZooKeeperServer, not started"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Update {} to {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "allocating queue"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.warn",
+    "pattern": "Problem stopping AdminServer"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ZooKeeper.debug",
+    "pattern": "Close called on already closed client"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.SyncRequestProcessor.info",
+    "pattern": "SyncRequestProcessor exited!"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.jmx.MBeanRegistry.error",
+    "pattern": "Unexpected exception during unregister of [{}]. It should be reviewed and fixed."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.ZKTrustManager.debug",
+    "pattern": "Failed to verify host address: <.*>, but reverse dns lookup is disabled"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.warn",
+    "pattern": "Got interrupted before joining the listener"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler.warn",
+    "pattern": "Using DIGEST-MD5 for quorum authorization"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Client attempting to establish new session at {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.Login.info",
+    "pattern": "refreshing now because expiry is before next scheduled refresh time."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "tickTime set to <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.util.CircularBlockingQueue.debug",
+    "pattern": "Queue is full. Discarding oldest element [count=<.*>]: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical.info",
+    "pattern": "Reading configuration from: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.auth.SaslServerCallbackHandler.error",
+    "pattern": "Failed to set name based on Kerberos authentication rules."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.EventThread.info",
+    "pattern": "EventThread shut down for session: 0x<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.error",
+    "pattern": "cnxn.saslServer is null: cnxn object did not initialize its saslServer properly."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.warn",
+    "pattern": "Interrupted Exception while waiting for new message"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "got conn req request from <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical.debug",
+    "pattern": "Negative set size: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.warn",
+    "pattern": "Failed to authenticate using SASL, server addr: <.*>, retries=<.*> exceeded."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Sync handling of connection request received from: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.DataTree.debug",
+    "pattern": "Failed: <.*>:<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Shell.warn",
+    "pattern": "Error reading the error stream"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNIO.error",
+    "pattern": "Unable to open socket to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ServerCnxnFactory.warn",
+    "pattern": "maxCnxns is not configured, using default value <.*>."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.warn",
+    "pattern": "Ignoring notification for non-cluster member sid <.*> from sid <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.Login.debug",
+    "pattern": "Client principal is \"<.*>\"."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.FileSnap.info",
+    "pattern": "Reading snapshot <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.warn",
+    "pattern": "Closing connection to <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Leader.error",
+    "pattern": "NEWLEADER ACK from sid: {} is from a different epoch - current 0x{} received 0x{}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.error",
+    "pattern": "Failed to process <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.controller.CommandClient.info",
+    "pattern": "Response body <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ObserverZooKeeperServer.info",
+    "pattern": "syncEnabled =<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "MetricsProviderClassName:{}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.RecvWorker.warn",
+    "pattern": "Interrupting SendWorker"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "It took <.*>ms to persist and commit txns in packetsCommitted. <.*> outstanding txns left in packetsNotLogged"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.SelectorThread.warn",
+    "pattern": "Unexpected ops in select <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.info",
+    "pattern": "address is the same, skip rebinding"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Leader.warn",
+    "pattern": "Enough followers present. Perhaps the initTicks need to be increased."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.SnapStream.info",
+    "pattern": "<.*> = <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.info",
+    "pattern": "Processing <.*> command from <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.warn",
+    "pattern": "destination address <.*> not reachable anymore, shutting down the SendWorker for sid <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.info",
+    "pattern": "PrepRequestProcessor exited loop!"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.Leader.debug",
+    "pattern": "Proposing:: {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.error",
+    "pattern": "Unexpected error "
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ZKClientHandler.info",
+    "pattern": "channel is disconnected: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.RequestThrottler.error",
+    "pattern": "Unexpected interruption"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Restored to a new database. lastProcessedZxid={}, nodeCount={}, sessionCount={}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.watch.WatcherCleaner.info",
+    "pattern": "watcherCleanThreshold=<.*>, watcherCleanIntervalInSeconds=<.*>, watcherCleanThreadsNum=<.*>, maxInProcessingDeadWatchers=<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Login.warn",
+    "pattern": "TGT refresh thread time adjusted from : <.*> to : <.*> since the former is sooner than the minimum refresh interval (<.*) seconds) from now."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "Command <.*> is not executed because it is not in the whitelist."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.watch.WatcherCleaner.info",
+    "pattern": "The maxInProcessingDeadWatchers config is smaller than the suggested one, change it to use <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.info",
+    "pattern": "Asynchronously closing socket to learner <.*>."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNIO.debug",
+    "pattern": "Ignoring exception during channel close"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler.warn",
+    "pattern": "User '{}' not found in list of DIGEST-MD5 authenticateable users."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "configFilename is null! This should only happen in tests."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Established session {} with negotiated timeout {} for client {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.WatcherThread.debug",
+    "pattern": "Got file changed event: <.*> with context: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.CommitProcessor.info",
+    "pattern": "CommitProcessor exited loop!"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Learner.warn",
+    "pattern": "Truncating log to get in sync with the leader 0x<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Server <.*> knows <.*> already, it is in the lastProposedView"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZKDatabase.warn",
+    "pattern": "The configured <.*> is invalid, going to use the default <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZKDatabase.info",
+    "pattern": "<.*>={<.*>}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.common.ClientX509Util.warn",
+    "pattern": "<.*> not specified"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.auth.KeyAuthenticationProvider.error",
+    "pattern": "bad formatting<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.LeaderRequestProcessor.debug",
+    "pattern": "Updating header"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZKDatabase.info",
+    "pattern": "Snapshot loaded in <.*> ms, highest zxid is 0x<.*>, digest is <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.warn",
+    "pattern": "NextQuorumVerifier is initiated to null"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.warn",
+    "pattern": "deleting <.*> failed"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.warn",
+    "pattern": "Ignoring notification for sid <.*> from non-quorum member sid <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.Commands.warn",
+    "pattern": "Invalid auth info length"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LeaderRequestProcessor.error",
+    "pattern": "Unexpected error in upgrade"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZKDatabase.info",
+    "pattern": "On disk txn sync disabled"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.error",
+    "pattern": "Missing limit node for quota {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "ZK Server {} started"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.controller.ControllableConnection.warn",
+    "pattern": "Controller is configured to NOT sending response back to client."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.cli.SetQuotaCommand.debug",
+    "pattern": "child removed during quota check"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.SyncRequestProcessor.warn",
+    "pattern": "Got IO exception during shutdown"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.warn",
+    "pattern": "Highest txn zxid 0x<.*> is not covering the snapshot digest zxid 0x<.*>, which might lead to inconsistent state"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PurgeTask.info",
+    "pattern": "Purge task completed."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.controller.CommandHandler.info",
+    "pattern": "CommandListener processed command <.*> with response code <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.info",
+    "pattern": "Deleted empty snapshot file: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.ReadOnlyRequestProcessor.error",
+    "pattern": "IO exception while sending response"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "not throttled"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.Login.error",
+    "pattern": "Interrupted while renewing TGT, exiting Login thread"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.EventThread.warn",
+    "pattern": "Somehow a null cb got to EventThread!"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Responding to client SASL token."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.auth.X509AuthenticationProvider.error",
+    "pattern": "Failed to create key manager"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnLog.warn",
+    "pattern": "fsync-ing the write ahead log in <.*> took <.*>ms which will adversely effect operation latency.File size is <.*> bytes. See the ZooKeeper troubleshooting guide"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "I am a participant: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.Login.error",
+    "pattern": "Failed to refresh TGT: refresh thread exiting now."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.common.WatcherThread.info",
+    "pattern": "<.*> thread finished"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.error",
+    "pattern": "Uncaught exception in authWriteRequest with: "
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.info",
+    "pattern": "Starting quorum peer, myid=<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.warn",
+    "pattern": "Got user-level KeeperException when processing sessionid:<.*> type:create cxid:<.*> zxid:<.*> txntype:<.*> reqpath:<.*> Error Path:<.*> Error:KeeperErrorCode = NodeExists for <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.info",
+    "pattern": "bound to port <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.X509Util.debug",
+    "pattern": "FIPS mode is OFF: creating ZKTrustManager"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "leaderConnectDelayDuringRetryMs: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.warn",
+    "pattern": "Invalid autopurge.snapRetainCount: <.*>. Defaulting to <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.controller.CommandHandler.error",
+    "pattern": "Failed processing the request"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.error",
+    "pattern": "Error reconfiguring client port to <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.SendThread.error",
+    "pattern": "SASL authentication with Zookeeper Quorum member failed."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ContainerManager.error",
+    "pattern": "Error checking containers"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.watch.WatcherCleaner.info",
+    "pattern": "Takes <.*> to process <.*> watches"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Learner.warn",
+    "pattern": "Committing 0x<.*>, but got no proposal"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.debug",
+    "pattern": "New message <.*> from <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.common.X509Util.warn",
+    "pattern": "{} not specified"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "multiAddress.reachabilityCheckEnabled set to <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "ACL check against non-existent node: {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.CommitProcessor.error",
+    "pattern": "Throttled request in committed & pending pool: <.*>. Exiting."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ReadOnlyZooKeeperServer.warn",
+    "pattern": "Submitting global closeSession request for session 0x<.*> in ReadOnly mode"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.CommitProcessor.debug",
+    "pattern": "Committing request:: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Observer.info",
+    "pattern": "Waiting for <.*> ms before reconnecting with the leader"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.info",
+    "pattern": "handshakeThrottlingEnabled = {}, {} = {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.jmx.ManagedUtil.info",
+    "pattern": "Log4j 1.2 jmx support is disabled by property."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ToBeAppliedRequestProcessor.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "checkQuota: lastPrefix={}, bytesDiff={}, countDiff={}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.error",
+    "pattern": "Error sending data synchronously "
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.util.SecurityUtils.debug",
+    "pattern": "Added private credential to <.*> principal name: '<.*>'"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumServer.info",
+    "pattern": "Host name for quorum server <.*> canonicalized from <.*> to <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Leader.error",
+    "pattern": "Couldn't bind to {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.ClientCnxn.error",
+    "pattern": "Configured value <.*> for property <.*> can not be parsed to long."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.warn",
+    "pattern": "Cannot open channel to <.*> at election address <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.error",
+    "pattern": "Unable to process request"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.Leader.debug",
+    "pattern": "Committing a reconfiguration! <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.util.SecurityUtils.debug",
+    "pattern": "creating sasl client: <.*>=<.*>;service=<.*>;serviceHostname=<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "Have quorum of supporters; starting up and setting last processed zxid: {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.util.OSMXBean.warn",
+    "pattern": "Not able to load class or method for com.sun.management.UnixOperatingSystemMXBean."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.error",
+    "pattern": "Invalid configuration, only one server specified (ignoring)"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.client.FourLetterWordMain.info",
+    "pattern": "connecting to <.*>:<.*> (secure=<.*)"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.util.MessageTracker.warn",
+    "pattern": "<.*> <.*>  <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.BlueThrottle.info",
+    "pattern": "The weights for different session types are: global <.*> renew <.*> local <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.RateLogger.warn",
+    "pattern": "Message: <.*> Value:<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "LEADING - LEADER ELECTION TOOK - {} {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ResponderThread.warn",
+    "pattern": "Got more than just an xid! Len = <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Follower.error",
+    "pattern": "Proposed leader epoch <.*> is less than our accepted epoch <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "Ignoring notification from member with -1 zxid <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LeaderZooKeeperServer.warn",
+    "pattern": "Failed to unregister with JMX"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Dropping request."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Blocking request submission while restore is in progress"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.Login.warn",
+    "pattern": "TGT renewal thread has been interrupted and will exit."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Server <.*> knows <.*> already, it is in the lastCommittedView"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.info",
+    "pattern": "New election. My id = <.*>, proposed zxid=<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.CertificateVerifier.error",
+    "pattern": "Error getting peer certificates"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Opening channel to server <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.SendThread.debug",
+    "pattern": "Got auth session id: 0x<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Server <.*> is soft-halting sender towards: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.EventThread.error",
+    "pattern": "Event thread exiting due to interruption"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Created server with tickTime {} ms minSessionTimeout {} ms maxSessionTimeout {} ms clientPortListenBacklog {} dataLogdir {} snapdir {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnLog.debug",
+    "pattern": "Log size limit reached: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler.warn",
+    "pattern": "No password found for user: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.controller.ControllableConnectionFactory.warn",
+    "pattern": "Interrupted while delaying requests"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnLog.warn",
+    "pattern": "Unable to truncate <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.admin.JettyAdminServer.info",
+    "pattern": "Started AdminServer on address <.*> port <.*> and command URL <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ObserverZooKeeperServer.warn",
+    "pattern": "Not expecting a sync."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.Leader.debug",
+    "pattern": "set lastSeenQuorumVerifier to currentQuorumVerifier (<.*>)"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.warn",
+    "pattern": "Closing connection to peer due to transaction timeout."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.warn",
+    "pattern": "Forcing snapshot sync - should not see this in production"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.CommitProcessor.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.info",
+    "pattern": "clientPort is not set"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.error",
+    "pattern": "Auth provider not found: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.info",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperCriticalThread.error",
+    "pattern": "Severe unrecoverable error, from thread : <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.auth.KeyAuthenticationProvider.debug",
+    "pattern": "KeyAuthenticationProvider handleAuthentication (<.*>, <.*>) -> FAIL.\n"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler.error",
+    "pattern": "SASL authorization completed, <.*> is not authorized to connect"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.AbstractSelectThread.warn",
+    "pattern": "ignored exception during selector close."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.common.AtomicFileOutputStream.warn",
+    "pattern": "Unable to delete tmp file <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.admin.UnifiedConnectionFactory.debug",
+    "pattern": "UnifiedConnectionFactory: newConnection() with SSL = <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.error",
+    "pattern": "{} is not ACKEPOCH"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.error",
+    "pattern": "Unexpected exception in receive"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Learner.error",
+    "pattern": "not all the LeaderConnector terminated properly"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.info",
+    "pattern": "<.*>={}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LeaderConnector.warn",
+    "pattern": "Unexpected exception, tries=<.*>, remaining init limit=<.*>, connecting to <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj.debug",
+    "pattern": "Finish Revalidation outstandingProposals"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.RecvWorker.debug",
+    "pattern": "RecvWorker.finish called. sid: <.*>. myId: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ReadOnlyZooKeeperServer.warn",
+    "pattern": "Failed to unregister with JMX"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.AuthenticationHelper.error",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerSessionTracker.info",
+    "pattern": "Committing global session 0x<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.debug",
+    "pattern": "Calling SendWorker.finish for <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.DataTree.warn",
+    "pattern": "Got EOF exception while reading the digest, likely due to the reading an older snapshot."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ContainerManager.info",
+    "pattern": "Attempting to delete candidate container: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.warn",
+    "pattern": "Exception reading or writing challenge"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.info",
+    "pattern": "Setting arbitrary identifier to observer: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ReadOnlyZooKeeperServer.info",
+    "pattern": "Read-only server started"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.auth.SaslServerCallbackHandler.debug",
+    "pattern": "client supplied realm: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Learner.warn",
+    "pattern": "Ignoring error closing connection to leader"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.UnifiedSocket.info",
+    "pattern": "Accepted TLS connection from <.*> - <.*> - <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ObserverMaster.info",
+    "pattern": "finished syncing observer from retained commit queue: sid <.*>, queue head 0x<.*>, queue tail 0x<.*>, sync position 0x<.*>, num packets used <.*>, num bytes used <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.RateLogger.warn",
+    "pattern": "[<.*> times] Message: <.*> Last value:<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.warn",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.util.ServiceUtils.error",
+    "pattern": "Fatal error, JVM should exit with code <.*>. Actually System.exit is disabled"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.client.FourLetterWordMain.info",
+    "pattern": "using secure socket"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.ClientX509Util.debug",
+    "pattern": "<.*> hostname verification: enabled HTTPS style endpoint identification algorithm"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.debug",
+    "pattern": "allChannels size: <.*> cnxns size: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.Commands.warn",
+    "pattern": "Re-registering command <.*> (primary name = <.*>)"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Exception while establishing session, closing"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.persistence.SnapStream.error",
+    "pattern": "Unable to open file <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.error",
+    "pattern": "Error joining old acceptThread when reconfiguring client port."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.warn",
+    "pattern": "Either no config or no quorum defined in config, running in standalone mode"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.info",
+    "pattern": "Backward compatibility mode (28 bits), server id: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.SendThread.debug",
+    "pattern": "An exception was thrown while closing send thread for session 0x<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.ZKWatchManager.error",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.TxnLogProposalIterator.warn",
+    "pattern": "Error closing file iterator"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.SSLContextAndOptions.debug",
+    "pattern": "Setup enabled protocols for <.*> socket: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerZooKeeperServer.warn",
+    "pattern": "Ignoring unexpected exception in syncprocessor shutdown"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Observer.warn",
+    "pattern": "Interrupted while waiting"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Leader.warn",
+    "pattern": "Ignoring unexpected exception during close {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.WatcherThread.debug",
+    "pattern": "<.*> was interrupted and is shutting down..."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.Login.debug",
+    "pattern": "running ticket cache refresh command: <.*> <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.ClientCnxn.error",
+    "pattern": "Timeout error occurred for the packet '<.*>'."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.auth.X509AuthenticationProvider.warn",
+    "pattern": "No certificate chain available to authenticate"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.jmx.ManagedUtil.error",
+    "pattern": "Problems while registering log4j 1.2 jmx beans!"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Follower.warn",
+    "pattern": "Exception when following the leader"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.PurgeTask.error",
+    "pattern": "Error occurred while purging."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "{} = {}"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Learner.error",
+    "pattern": "First packet should have been NEWLEADER"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumServer.warn",
+    "pattern": "Election address has not been initialized"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.FollowerZooKeeperServer.error",
+    "pattern": "Committing zxid 0x<.*> but next pending txn 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.SendThread.warn",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Failed to unregister with JMX"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.warn",
+    "pattern": "Error while stopping metrics"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "Sending Notification: <.*> (n.leader), 0x<.*> (n.zxid), 0x<.*> (n.peerEpoch), 0x<.*> (n.round), <.*> (recipient), <.*> (myid) "
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ZooKeeper.debug",
+    "pattern": "Closing session: 0x<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.error",
+    "pattern": "Exception while sending packets in LearnerHandler"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ProposalRequestProcessor.info",
+    "pattern": "<.*> = <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ContainerManager.info",
+    "pattern": "Using checkIntervalMs=<.*> maxPerMinute=<.*> maxNeverUsedIntervalMs=<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.error",
+    "pattern": "Error updating DB"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.RequestThrottler.info",
+    "pattern": "RequestThrottler shutdown. Dropped <.*> requests"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.info",
+    "pattern": "Non-incremental reconfig"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ConnectionBean.warn",
+    "pattern": "Unable to closeSession() for session: 0x<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.client.ServerSaslResponseCallback.debug",
+    "pattern": "ServerSaslResponseCallback(): saslToken server response: (length=<.*>)"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.WorkerReceiver.debug",
+    "pattern": "Invoking processReconfig(), state: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.info",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.FileChangeWatcher.debug",
+    "pattern": "Registering with watch service: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "PeerState set to LOOKING"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Observer.info",
+    "pattern": "<.*> = <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.common.ZKTrustManager.error",
+    "pattern": "Failed to verify hostname: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ServerCnxn.error",
+    "pattern": "Error closing a command socket"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.debug",
+    "pattern": "Received ACK from Observer <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.ReadOnlyRequestProcessor.info",
+    "pattern": "ReadOnlyRequestProcessor exited loop!"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.error",
+    "pattern": "Null listener when initializing cnx manager"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.warn",
+    "pattern": "Client {} failed to SASL authenticate"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.error",
+    "pattern": "Error while accessing socket for <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.auth.KeyAuthenticationProvider.error",
+    "pattern": "getData failed<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.Learner.error",
+    "pattern": "Throttled request sent to leader: <.*>. Exiting"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.SendThread.warn",
+    "pattern": "Exception while seeking for r/w server."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ServerAdminClient.stat",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.common.SecretUtils.error",
+    "pattern": "Exception occurred when reading secret from file <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.controller.ControllerService.info",
+    "pattern": "Starting quorum peer from peer config"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "writeToDisk == true but configFilename == null"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.Listener.debug",
+    "pattern": "Halt called: Trying to close listeners"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.Commands.warn",
+    "pattern": "Unknown command"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ServerCnxnFactory.error",
+    "pattern": "undefined template"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "Notification from observer: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.SendThread.warn",
+    "pattern": "Connection close fails when migrates state from <.*> to CLOSED"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.SyncLimitCheck.warn",
+    "pattern": "ACK for 0x<.*> received before ACK for 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Observer.warn",
+    "pattern": "requested next learner master <.*> is no longer valid"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.util.SecurityUtils.debug",
+    "pattern": "servicePrincipalName is '<.*>'"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.Commands.warn",
+    "pattern": "Auth info is missing for command"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.ZKConfig.debug",
+    "pattern": "key <.*>'s value <.*> is replaced with new value <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.error",
+    "pattern": "SaslServer dispose() failed"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.warn",
+    "pattern": "Exception when using channel: for id <.*> my id = <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.UnifiedConnectionFactory.warn",
+    "pattern": "Incoming connection has no data"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerMain.error",
+    "pattern": "Unable to start AdminServer, exiting abnormally"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "ZK server starting"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.client.ServerSaslResponseCallback.warn",
+    "pattern": "sasl client was unexpectedly null: cannot respond to Zookeeper server."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.ZKDatabase.error",
+    "pattern": "undefined template"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LeaderRequestProcessor.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "ElectionPort:{}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.warn",
+    "pattern": "Failed to authenticate using SASL"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler.info",
+    "pattern": "Successfully authenticated learner: authenticationID=<.*>;  authorizationID=<.*>."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.util.SecurityUtils.error",
+    "pattern": "Zookeeper Quorum member experienced a PrivilegedActionException exception while creating a SaslServer using a JAAS principal context"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.warn",
+    "pattern": "Could not delete empty snapshot file: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.info",
+    "pattern": "Successfully completed the authentication using SASL. learner addr: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.info",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.common.NettyUtils.warn",
+    "pattern": "Failed to list all network interfaces, assuming 1"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.util.MessageTracker.warn",
+    "pattern": "Last <.*> timestamps for messages <.*> <.*>:"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "QuorumPeer main thread exited"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.CnxnChannelHandler.warn",
+    "pattern": "Exception caught"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Using insecure (non-TLS) quorum communication"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "Shutting down connection manager"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.common.WatcherThread.error",
+    "pattern": "Watch key no longer valid, maybe the directory is inaccessible?"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.ZKTrustManager.debug",
+    "pattern": "Check client trusted engine.getPeerHost(): <.*> <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.ListenerHandler.error",
+    "pattern": "Leaving listener thread for address <.*> after <.*> errors. Use <.*> property to increase retry count."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.error",
+    "pattern": "BufferUnderflowException "
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.Login.error",
+    "pattern": "nextRefresh:<.*> is in the past: exiting refresh thread. Check clock sync between this host and KDC - (KDC's clock is likely ahead of this host). Manual intervention will be required for this client to successfully authenticate. Exiting refresh thread."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ServerCnxnFactory.warn",
+    "pattern": "Could not register connection"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.common.NettyUtils.debug",
+    "pattern": "Ignoring loopback InetAddress <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "DIFF sync got first proposal 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.ResponderThread.warn",
+    "pattern": "Unexpected IO exception in ResponderThread"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.info",
+    "pattern": "Snapshotting: <.*> to <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.error",
+    "pattern": "Unexpected exception in LearnerHandler: "
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "close called for session id: 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.warn",
+    "pattern": "Failed to unregister with JMX"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "Clobbering already-set QuorumCnxManager (restarting leader election?)"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumZooKeeperServer.info",
+    "pattern": "Upgrading session 0x<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.Leader.warn",
+    "pattern": "Going to commit null: {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerListenerImpl.info",
+    "pattern": "Thread <.*> exits, error code <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.util.JVMMonitor.info",
+    "pattern": "Starting JVM Pause Monitor with infoThresholdMs:<.*> warnThresholdMs:<.*> and sleepTimeMs:<.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerCnxAcceptorHandler.warn",
+    "pattern": "Exception while shutting down acceptor."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "ZooKeeper server is not running, so not proceeding to shutdown!"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.common.ZKConfig.error",
+    "pattern": "Error while configuration from: {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.SnapshotCommand.warn",
+    "pattern": "Snapshot file <.*> is empty"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj.debug",
+    "pattern": "Oracle says:<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "Processed queue - channel closed, dropping remaining bytes"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnLog.info",
+    "pattern": "Creating new log file: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.debug",
+    "pattern": "CancelledKeyException stack trace"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "maxSessionTimeout set to {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.ObserverMaster.debug",
+    "pattern": "ignore missing proposal packet for <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.audit.ZKAuditProvider.info",
+    "pattern": "ZooKeeper audit is enabled."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "TCP NoDelay set to: <.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.util.SecurityUtils.error",
+    "pattern": "server principal name/hostname determination error"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.warn",
+    "pattern": "Invalid server id: <.*> "
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.error",
+    "pattern": "Unhandled scenario for peer sid: <.*> fall back to use snapshot"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.controller.CommandClient.error",
+    "pattern": "Unknown exception when sending command"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZKDatabase.warn",
+    "pattern": "Error closing file iterator"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.info",
+    "pattern": "Skipping SASL authentication as {}={}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.SendThread.info",
+    "pattern": "SASL config status: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PurgeTask.info",
+    "pattern": "Purge task started."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.TxnLogProposalIterator.error",
+    "pattern": "Unable to read txnlog from disk"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.admin.JettyAdminServer.info",
+    "pattern": "Successfully loaded certificate authority from <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.RestoreCommand.warn",
+    "pattern": "Restore command requires serializeLastProcessedZxidEnable flag is set to true"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.debug",
+    "pattern": "Client attempting to renew session {} at {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.util.MessageTracker.info",
+    "pattern": "No buffered timestamps for messages <.*> <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.UnifiedSocket.warn",
+    "pattern": "Failed to restore old socket timeout value of <.*> ms"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "Throttling - disabling recv <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnSnapLog.warn",
+    "pattern": "<.*>This should only be allowed during upgrading."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl.info",
+    "pattern": "Server: {} -> addr {} elect {} id={} type {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.client.StaticHostProvider.warn",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZKDatabase.info",
+    "pattern": "Txnlog size: <.*> exceeds sizeLimit: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.warn",
+    "pattern": "Exception while sending failed status"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical.debug",
+    "pattern": "Positive set size: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "forcibly expiring session 0x{}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "Learner received UPTODATE message"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "zookeeper.snapSizeLimitInKb set to a non-positive value {}; disabling feature"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Invalid session 0x{} for client {}, probably expired"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.debug",
+    "pattern": "validation of destination address for sid <.*> is skipped (it is already running)"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.DatadirCleanupManager.info",
+    "pattern": "Purge task is not scheduled."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNetty.info",
+    "pattern": "channel is connected: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical.info",
+    "pattern": "<.*>, <.*>, <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.controller.CommandClient.warn",
+    "pattern": "Failed to get response from server"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.debug",
+    "pattern": "ignoring exception during output shutdown"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.common.X509Util.error",
+    "pattern": "Error creating SSL context and options"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.persistence.SnapStream.error",
+    "pattern": "Read incorrect number of bytes from <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.info",
+    "pattern": "Notification time out: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "close in progress for session id: 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.info",
+    "pattern": "Oracle indicates not to follow"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.quorum.ToBeAppliedRequestProcessor.error",
+    "pattern": "Committed request not found on toBeApplied: {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.debug",
+    "pattern": "Command <.*> is not executed because it is not in the whitelist."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.warn",
+    "pattern": "Unexpected exception. Destruction averted."
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.client.ZooKeeperSaslClient.debug",
+    "pattern": "ClientCnxn:sendSaslPacket:length=<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.util.JVMMonitor.info",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNIO.debug",
+    "pattern": "SendThread interrupted during sleep, ignoring"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.watch.WatchManagerFactory.info",
+    "pattern": "Using <.*> as watch manager"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "multiAddress.reachabilityCheckTimeoutMs set to <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxnFactory.debug",
+    "pattern": "SSL handler added for channel: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.ZooKeeperServerMain.warn",
+    "pattern": "Error while stopping metrics"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "undefined template"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.ServerAdminClient.ruok",
+    "pattern": "Unexpected exception"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.SessionTrackerImpl.debug",
+    "pattern": "Checking session 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.PurgeTxnLog.info",
+    "pattern": "Removing file: <.*>\t<.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.DataTree.debug",
+    "pattern": "Adjusting parent cversion for Txn: <.*> path: <.*> err: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.PrepRequestProcessor.debug",
+    "pattern": "Digest got from outstandingChanges is: <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.debug",
+    "pattern": "ignoring exception during socketchannel close"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.Listener.debug",
+    "pattern": "Error closing server socket"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "FOLLOWING"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.CommitProcessor.debug",
+    "pattern": "Processing request:: <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.warn",
+    "pattern": "Closing session 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.auth.EnsembleAuthenticationProvider.info",
+    "pattern": "Set expected ensemble names to <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.LearnerHandler.warn",
+    "pattern": "unexpected quorum packet, type: {}"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.LearnerMaster.info",
+    "pattern": "<.*> = <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NettyServerCnxn.debug",
+    "pattern": "Processed queue - bytes remaining"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.ZKDatabase.debug",
+    "pattern": "Negative size limit - retrieving proposal via txnlog is disabled"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.FollowerRequestProcessor.info",
+    "pattern": "Initialized FollowerRequestProcessor with {} as {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.UnifiedSocket.warn",
+    "pattern": "Socket mode detection timed out after <.*> ms, assuming PLAINTEXT"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.jmx.ManagedUtil.info",
+    "pattern": "Log4j 1.2 jmx support found and enabled."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.util.RequestPathMetricsCollector.registerRequest",
+    "pattern": "We should not handle <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeerConfig.info",
+    "pattern": "secureClientPortAddress is <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "startConnection (myId:<.*> --> sid:<.*>)"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "Getting a snapshot from leader"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "minSessionTimeout set to <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "<.*> txns have been logged asynchronously"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.jmx.ManagedUtil.info",
+    "pattern": "Log4j 1.2 jmx support not found; jmx disabled."
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.admin.Commands.warn",
+    "pattern": "Auth provider not found for schema"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.debug",
+    "pattern": "PeerState set to LEADING"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.FastLeaderElection.debug",
+    "pattern": "I am an observer: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Leader.info",
+    "pattern": "{} = {}"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.util.SecurityUtils.warn",
+    "pattern": "Cannot add private credential to subject; clients authentication may fail"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.SendWorker.debug",
+    "pattern": "validate if destination address is reachable for sid <.*>"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.jmx.MBeanRegistry.debug",
+    "pattern": "Unregister MBean [{}]"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "Snapshot taken in {} ms"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.NIOServerCnxn.debug",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.controller.CommandListener.error",
+    "pattern": "Failed to instantiate CommandListener."
+  },
+  {
+    "level": "ERROR",
+    "method": "org.apache.zookeeper.server.FinalRequestProcessor.error",
+    "pattern": "Dumping request buffer for request type <.*>: 0x<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.command.StatCommand.info",
+    "pattern": "Stat command output"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.debug",
+    "pattern": "Reconfig feature is disabled, skip reconfig processing."
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.Learner.info",
+    "pattern": "Revalidating client: <.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.UnifiedSocket.info",
+    "pattern": "Accepted plaintext connection from <.*>"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.NIOServerCnxnFactory.warn",
+    "pattern": "Ignoring interrupted exception during shutdown"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.WorkerService.warn",
+    "pattern": "ExecutorService rejected execution"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.ZooKeeperServer.info",
+    "pattern": "The large request threshold is set to {}"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.quorum.QuorumCnxManager.debug",
+    "pattern": "Have larger server identifier, so keeping the connection: (myId:<.*> --> sid:<.*>)"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.RequestThrottler.info",
+    "pattern": "{} = {} ms"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.ClientCnxnSocketNIO.debug",
+    "pattern": "Ignoring exception during socket close"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.SessionTrackerImpl.info",
+    "pattern": "Shutting down"
+  },
+  {
+    "level": "DEBUG",
+    "method": "org.apache.zookeeper.server.persistence.FileTxnIterator.debug",
+    "pattern": "EOF exception"
+  },
+  {
+    "level": "WARN",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.warn",
+    "pattern": "could not find learner master sid=<.*>"
+  },
+  {
+    "level": "INFO",
+    "method": "org.apache.zookeeper.server.quorum.QuorumPeer.info",
+    "pattern": "Becoming a voting participant"
+  }
+]
