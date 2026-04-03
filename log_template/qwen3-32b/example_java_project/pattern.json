@@ -1,0 +1,12 @@
+[
+  {
+    "level": "FATAL",
+    "method": "com.example.Foo.logSomething",
+    "pattern": "<.*>"
+  },
+  {
+    "level": "ERROR",
+    "method": "com.example.Foo.logSomething",
+    "pattern": "<.*>"
+  }
+]
